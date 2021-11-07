@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@600&display=swap');
+
+@font-face{
+  font-family: CFHalloween;
+  src: url(./fonts/CFHalloween-Regular.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lato;
+  font-family: K2D;
 }
 
 #container-header{
@@ -18,10 +25,13 @@
 
 #container-header img{
   height: 340px;
+  cursor: pointer;
 }
 
 #container-header h1{
-  font-size: 36px;
+  font-family: CFHalloween;
+  cursor: pointer;
+  font-size: 50px;
   padding-bottom: 15px;
 }
 
@@ -46,17 +56,18 @@ body{
   border: rgb(170, 108, 228) 1px solid;
   border-bottom: none;
   background-color: black;
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;
 }
 
 article img{
   height: 220px;
+  cursor: pointer;
 }
 
 .post-textContent{
   background-color: rgb(170, 108, 228);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 article h3{
@@ -66,27 +77,59 @@ article h3{
 
 article p{
   margin-bottom: 68px;
-  padding-left: 15px;
-  padding-right: 20px;
+  padding: 0 20px 25px 15px;
 }
 
 footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 35%;
-  padding-right: 35%;
+  align-items: center;
   background-color: rgb(170, 108, 228);
+}
+
+footer #tittle{
+  font-size: 30px;
+  text-align: center;
+  padding: 45px 0;
 }
 
 footer input{
   margin-bottom: 8px;
-  height: 30px;
+  height: 55px;
+  width: 440px;
   border-radius: 4px;
   border: none;
   padding-left: 8px;
 }
 
-textarea {
+input:focus, textarea:focus{
+  outline-color: rgb(130, 0, 252);
+}
+
+footer textarea {
   resize: none;
+  border-radius: 4px;
+  border: none;
+  padding-left: 8px;
+  padding-top: 15px;
+}
+
+footer button{
+  cursor: pointer;
+  height: 50px;
+  width: 440px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  color: rgb(209, 209, 209);
+  background-color: rgb(130, 0, 252);
+  box-shadow: 0px 5px 5px 0px rgba(23, 23, 23, 0.1);
+}
+
+button:hover{
+  transition: 0.4s;
+  background-color: rgb(92, 0, 179);
 }
