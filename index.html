@@ -22,74 +22,74 @@
 
   <main>
     <div id="container-cards">
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Hat.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Chapeu de Bruxa</h3>
-          <p>Como foi que os chapéus <br> passaram a ser relacionados <br> a bruxas?
+          <h3 class="title">Chapeu de Bruxa</h3>
+          <p class="description">Como foi que os chapéus <br> passaram a ser relacionados <br> a bruxas?
             É bastante provável..</p>
         </div>
       </article>
 
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Pumpkin.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Aboboras </h3>
-          <p>As abóboras simbolizam<br>
+          <h3 class="title">Aboboras </h3>
+          <p class="description">As abóboras simbolizam<br>
             fertilidade e sabedoria,<br> enquanto as velas
             servem..</p>
         </div>
       </article>
 
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Cauldron.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Caldeirões</h3>
-          <p>É dentro dele que as coisas<br>
+          <h3 class="title">Caldeirões</h3>
+          <p class="description">É dentro dele que as coisas<br>
             se transformam: o grão torna-se<br>
             alimento, a raiz vira remédio..</p>
         </div>
       </article>
 
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Rip.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Morte</h3>
-          <p>Não é de hoje que o conceito<br> da morte é usado para assustar<br> pessoas porem você sabia que.. </p>
+          <h3 class="title">Morte</h3>
+          <p class="description">Não é de hoje que o conceito<br> da morte é usado para assustar<br> pessoas porem você sabia que.. </p>
         </div>
       </article>
 
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Skull.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Caveiras</h3>
-          <p>As caveiras desde os primordios<br> da humanidade são um simbolo<br> de ambivalência da vida e da..</p>
+          <h3 class="title">Caveiras</h3>
+          <p class="description">As caveiras desde os primordios<br> da humanidade são um simbolo<br> de ambivalência da vida e da..</p>
         </div>
       </article>
 
-      <article>
+      <article class="post">
         <div class="post-image">
           <img src="./images/Ghost.png" alt="">
         </div>
 
         <div class="post-textContent">
-          <h3>Fantasmas</h3>
-          <p>Um símbolo universal
+          <h3 class="title">Fantasmas</h3>
+          <p class="description">Um símbolo universal
             de<br> espíritos e ocultismo. <br> Durante as
             celebrações..</p>
         </div>
@@ -107,4 +107,18 @@
     <button type="submit">Enviar mensagem</button>
   </footer>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    const sr = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2000,
+    reset: true
+  });
+
+  ScrollReveal().reveal('.post', { delay: 100 });
+  ScrollReveal().reveal('.post-image', { delay: 100 });
+  ScrollReveal().reveal('.title', { delay: 300 });
+  ScrollReveal().reveal('.description', { delay: 350 });
+</script>
 </html>
