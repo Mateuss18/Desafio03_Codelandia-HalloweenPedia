@@ -14,21 +14,11 @@
 
 ---
 
-## 🖖 Apresentação
-
-Olá pessoal, tudo bem?
-
-Os desafios vão ser lançados todos os finais de semanas!
-
-Todos os desafios são para nível JÚNIOR, mas com o tempo vamos ir aprofundando cada vez mais.
-
-Os desafios serão feitos no Figma onde qualquer pessoa pode acessá-lo e até deslocá-lo para editá-lo.
-
----
-
 ## 🎯 Índice de desafios
 
-* [Desafio 03 - Blog](#id01)
+* [Desafio 01 - Blog](https://github.com/Mateuss18/Desafio01_Codelandia-Blog)
+* [Desafio 02 - Blog](https://github.com/Mateuss18/Desafio02_Codelandia-JordanShoes)
+* [Desafio 03 - Blog](https://github.com/Mateuss18/Desafio03_Codelandia-HalloweenPedia)
 ---
 
 ### **Desafio 03 - OnePage** <a name="id01"></a>
@@ -38,6 +28,21 @@ Os desafios serão feitos no Figma onde qualquer pessoa pode acessá-lo e até d
 <img src="images/mobile.gif" alt="">
 
 Link do desafio no Figma: [Clique aqui](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=3743%3A36)
+
+>
+---
+<h2 align="center">
+  Tecnologias
+</h2>
+
+<div align="center">
+
+![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/html-5.svg)
+
+![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/css.svg)
+
+![](https://github.com/JoshDanielWalker/Tech-SVG-Icons/blob/master/javascript.svg)
+</div>
 
 >
 ---
